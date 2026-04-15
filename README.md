@@ -112,6 +112,7 @@ sudo openvpn --config ovpn_configs/001_JP_somehostname.ovpn
 
 **Windows** — download [OpenVPN GUI](https://openvpn.net/community-downloads/), open it from the system tray, right-click the icon, hit Import File, select your `.ovpn` file, then Connect.
 
+**Windows/Linux/MacOS/iOS/Android/Chrome OS*** download - [OpenVPN Connect](https://openvpn.net/client/), open it drag and drop the config file inside the interface or click inport and select the downloaded config, then click connect to get connected.
 ---
 
 ## Output files
