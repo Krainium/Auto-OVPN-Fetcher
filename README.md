@@ -17,21 +17,24 @@ Everything happens from a single interactive session. No flags to memorise. No c
 - Go 1.21 or newer
 - An internet connection (fetches live data from VPNGate on launch)
 - OpenVPN installed if you plan to actually connect
+  - Linux / macOS — [OpenVPN Community](https://openvpn.net/community-downloads/)
+  - Windows — [OpenVPN GUI](https://openvpn.net/community-downloads/) (grab the Windows installer from the same page)
 
 ---
 
 ## Build
 
 ```bash
-git clone https://github.com/krainium/<repo>
-cd A/ovpn
-go build -o ovpn .
+git clone https://github.com/Krainium/Auto-OVPN-Fetcher.git
+cd your directory to the cloned file
+go build -o ovpn
+or run it directly = go run ovpn.go
 ```
 
 On Windows:
 
 ```bash
-go build -o ovpn.exe .
+go build -o ovpn.exe
 ```
 
 ---
@@ -100,11 +103,13 @@ Re-fetches the live server list without restarting the tool. VPNGate updates its
 
 Once you have a `.ovpn` file:
 
+**Linux / macOS** — install [OpenVPN Community](https://openvpn.net/community-downloads/) then run:
+
 ```bash
 sudo openvpn --config ovpn_configs/001_JP_somehostname.ovpn
 ```
 
-On Windows, import the file into the OpenVPN GUI.
+**Windows** — download [OpenVPN GUI](https://openvpn.net/community-downloads/), open it from the system tray, right-click the icon, hit Import File, select your `.ovpn` file, then Connect.
 
 ---
 
