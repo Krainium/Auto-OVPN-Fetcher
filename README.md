@@ -19,7 +19,7 @@ Everything happens from a single interactive session. No flags to memorise. No c
 - OpenVPN installed if you plan to actually connect
   - Linux / macOS — [OpenVPN Community](https://openvpn.net/community-downloads/)
   - Windows — [OpenVPN GUI](https://openvpn.net/community-downloads/) (grab the Windows installer from the same page)
-  - Windows/Linux/MacOS/iOS/Android/Chrome OS - [https://openvpn.net/client/]
+  - Windows/Linux/MacOS/iOS/Android/Chrome OS - [OpenVPN Connect](https://openvpn.net/client/)
 
 ---
 
